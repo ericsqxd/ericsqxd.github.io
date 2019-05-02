@@ -117,7 +117,7 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           var minSrc = 'https://raw.githubusercontent.com/ericsqxd/Blog-Back-Up/master/min_src/' + data.link[i] + '.jpg';
-          var src = 'https://raw.githubusercontent.com/ericsqxd/Blog-Back-Up/master/min_src/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/ericsqxd/Blog-Back-Up/master/src/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
